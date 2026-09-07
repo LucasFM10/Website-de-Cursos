@@ -1,0 +1,8 @@
+@import "tailwindcss" source(none);
+@import "./design-system/kindred-library-51411a/styles.css";
+@source "../src";
+
+html {
+  scroll-behavior: smooth;
+}
+

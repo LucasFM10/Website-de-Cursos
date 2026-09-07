@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "name": "Kindred Library",
+    "package": "@ws-ymdhxzxiyk4apcld23co/7a62ec25-a603-456f-a914-b57998602dd8",
+    "version": "1.0.0",
+    "framework": "react",
+    "css_framework": "tailwind",
+    "starter_template": "custom_design_system",
+    "theme_files": [
+      "src/styles/theme.css"
+    ],
+    "source_type": "local",
+    "source_manifest": {
+      "#enrichment": "bd0ec3e390c74ea3e2996cb1b7dc6fc192ab0545545140fd6ef16a6096837cc7",
+      ".dsignore": "7fd515001920ea6467f474e3151152c2",
+      ".gitignore": "6059213806e442947666752f3db6bfdc",
+      ".lovable/meta.yaml": "8ec7245def9c0ef39976dd2bc212ff0a",
+      ".lovable/plan/artisanal-elegance-design-system-starter-2026-09-06.md": "3a541e2c43b82653abf0cc66917ae21a",
+      ".lovable/sources.yaml": "beeb4b792ab92373686a9d4733205105",
+      ".lovable/system.md": "37be95c8071b81015e6a0fae87ba4740",
+      "README.md": "d19675c449605f23c7cfa133c69b398b",
+      "bunfig.toml": "25f4c8696b22b0943db7191e0cdf7942",
+      "eslint.config.js": "07a67437fb1a45ab36d6de0145ff09de",
+      "lovable.toml": "9636c1bf32f9901bfba4eabb92981217",
+      "mockupPreviewPlugin.ts": "8024d439734f27417621536969f64db1",
+      "package.json": "7cef28a2d49f67ca1a1741b26d850c52",
+      "public/favicon.ico": "9f504444f85a5af2eef9264b02ae40be",
+      "src/components/badge.tsx": "f749a85c3a16e9a7260c8b2e0f8738ae",
+      "src/components/bottom-nav.tsx": "17ffcf8ebdafc7c6bafd743acc6efe5c",
+      "src/components/button.tsx": "8d6682c4cd9ec4e7861861b415049524",
+      "src/components/card.tsx": "e441cb2f60040ef2dbb347c2002a9088",
+      "src/components/course-card.tsx": "9ef9312e3888c16bf75873e3f33ccc12",
+      "src/components/divider.tsx": "4e5621523a060a91bf147271da61feb3",
+      "src/components/input.tsx": "7e9ed0c3a221701d60fae27f4469e05a",
+      "src/components/label.tsx": "1365aaac4382465b677b5baabe144b78",
+      "src/components/radio-card.tsx": "dc19fe94a28d2ea012f5bc0ebcbbeb0a",
+      "src/components/sticky-purchase-bar.tsx": "db86a30b23d5ed180e3ff4da70130622",
+      "src/components/top-app-bar.tsx": "530a6eefa89ddd255bc22d41126d96f5",
+      "src/index.ts": "8490c647dfff9be9274897208e3f75ea",
+      "src/lib/utils.ts": "a390e89f616ed9f292f40932c8c85694",
+      "src/mockup-preview.d.ts": "38969839f35ce2966e32a9f01a5c09ea",
+      "src/routeTree.gen.ts": "6f67a8aebc2c09c9c5ed77ffc35e30e7",
+      "src/router.tsx": "8f905e713b0eba7fa8148b7995a708c9",
+      "src/routes/[__component].preview.$.tsx": "3a40af1fe37daff2e891175a6e6d4f99",
+      "src/routes/[__mockup].preview.$.tsx": "5d9f42470848aa60148f20f9580e240e",
+      "src/routes/__root.tsx": "eb84fa256194ba00c04699d60fb87f03",
+      "src/routes/colors.tsx": "54d6c77e50652a467f80d24f021dd848",
+      "src/routes/components.tsx": "4852f8e16baf8db1784668f0a78bf79a",
+      "src/routes/index.tsx": "252e08b66cdd9d923a50f5e26b2a8612",
+      "src/routes/typography.tsx": "5b5cba8730bf4ec8cef1c4870b6b50bd",
+      "src/showcase/assets/bag-crossbody.jpg": "670d66ecd8d486cac49570d86cf7d341",
+      "src/showcase/assets/bag-tote.jpg": "81b5a3679ec5062dd558254605058e6d",
+      "src/showcase/nav.tsx": "7353b3d4d00393eb471c46e59cae2acf",
+      "src/styles.css": "3eca0b0ec501e49bb6f0f69649ad6407",
+      "src/styles/theme.css": "171c28669df809ff0f75f64a25f401a6",
+      "tsconfig.json": "994abf64c2b9f78b568879f80ed0170e",
+      "vite.config.ts": "4fcbc01db751db166aa6df3f2f5adaf5",
+      "wrangler.jsonc": "680b897d48e44bcc65fe437c29b38f3b"
+    },
+    "pipeline_version": 8
+  },
+  "tokens": {
+    "color": [
+      {
+        "name": "--color-primary",
+        "raw": "#6d1a22",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-primary-container",
+        "raw": "#8b252f",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-on-primary",
+        "raw": "#ffffff",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-surface",
+        "raw": "#fbf9f8",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-surface-container-lowest",
+        "raw": "#ffffff",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-surface-container-low",
+        "raw": "#f6f3f2",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-surface-container",
+        "raw": "#f0ece9",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-surface-dim",
+        "raw": "#dcd9d9",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-on-surface",
+        "raw": "#1f1b1a",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-on-surface-variant",
+        "raw": "#534342",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-outline",
+        "raw": "#857372",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-outline-variant",
+        "raw": "#d8c2bf",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-accent-leather",
+        "raw": "#a6634b",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--color-success",
+        "raw": "#2e6347",
+        "source": "src/styles/theme.css"
+      }
+    ],
+    "typography": [
+      {
+        "name": "--font-display",
+        "raw": "\"Playfair Display\", Georgia, serif",
+        "source": "src/styles/theme.css"
+      },
+      {
+        "name": "--font-sans",
+        "raw": "\"Inter\", -apple-system, \"BlinkMacSystemFont\", sans-serif",
+        "source": "src/styles/theme.css"
+      }
+    ],
+    "shadow": [
+      {
+        "name": "--shadow-bar",
+        "raw": "0 4px 20px -2px rgba(31, 27, 26, 0.05)",
+        "source": "src/styles/theme.css"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button",
+      "file": "src/components/button",
+      "import_path": "",
+      "props": [
+        {
+          "name": "variant",
+          "type": "enum",
+          "values": [
+            "primary",
+            "outline",
+            "outline-neutral",
+            "ghost"
+          ],
+          "default": "primary"
+        },
+        {
+          "name": "size",
+          "type": "enum",
+          "values": [
+            "md",
+            "sm",
+            "pill"
+          ],
+          "default": "md"
+        },
+        {
+          "name": "fullWidth",
+          "type": "enum",
+          "values": [
+            "true"
+          ]
+        },
+        {
+          "name": "loading",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "Badge",
+      "file": "src/components/badge",
+      "import_path": "",
+      "props": [
+        {
+          "name": "variant",
+          "type": "enum",
+          "values": [
+            "level",
+            "leather",
+            "success",
+            "neutral"
+          ],
+          "default": "level"
+        }
+      ]
+    },
+    {
+      "name": "Card",
+      "file": "src/components/card",
+      "import_path": ""
+    },
+    {
+      "name": "CardContent",
+      "file": "src/components/card",
+      "import_path": ""
+    },
+    {
+      "name": "CourseCard",
+      "file": "src/components/course-card",
+      "import_path": "",
+      "props": [
+        {
+          "name": "imageSrc",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "imageAlt",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "price",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "level",
+          "type": "string"
+        },
+        {
+          "name": "actionLabel",
+          "type": "string",
+          "default": "Ver curso"
+        },
+        {
+          "name": "onAction",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "name": "Input",
+      "file": "src/components/input",
+      "import_path": "",
+      "props": [
+        {
+          "name": "fill",
+          "type": "enum",
+          "values": [
+            "lowest",
+            "container"
+          ],
+          "default": "lowest"
+        }
+      ]
+    },
+    {
+      "name": "Label",
+      "file": "src/components/label",
+      "import_path": ""
+    },
+    {
+      "name": "RadioCard",
+      "file": "src/components/radio-card",
+      "import_path": "",
+      "props": [
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "name": "icon",
+          "type": "any"
+        }
+      ]
+    },
+    {
+      "name": "TopAppBar",
+      "file": "src/components/top-app-bar",
+      "import_path": "",
+      "props": [
+        {
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "onBack",
+          "type": "function"
+        },
+        {
+          "name": "trailing",
+          "type": "any"
+        }
+      ]
+    },
+    {
+      "name": "BottomNav",
+      "file": "src/components/bottom-nav",
+      "import_path": "",
+      "props": [
+        {
+          "name": "items",
+          "type": "any",
+          "required": true
+        },
+        {
+          "name": "activeIndex",
+          "type": "number",
+          "required": true
+        },
+        {
+          "name": "onNavigate",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "name": "StickyPurchaseBar",
+      "file": "src/components/sticky-purchase-bar",
+      "import_path": "",
+      "props": [
+        {
+          "name": "price",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "caption",
+          "type": "string"
+        },
+        {
+          "name": "ctaLabel",
+          "type": "string",
+          "default": "Comprar Agora"
+        },
+        {
+          "name": "onPurchase",
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "name": "Divider",
+      "file": "src/components/divider",
+      "import_path": ""
+    }
+  ]
+}
