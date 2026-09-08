@@ -1,1 +1,9 @@
 project_id = "vskitxnsblhgsfldnfrm"
+
+[auth.hook.send_sms]
+enabled = true
+uri = "http://host.docker.internal:54321/functions/v1/send-auth-sms"
+secrets = "env(SEND_SMS_HOOK_SECRET)"
+
+[functions.send-auth-sms]
+verify_jwt = false
